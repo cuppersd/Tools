@@ -1,0 +1,26 @@
+<annotation verified="no">
+  <folder>container</folder>
+  <filename>000412</filename>
+  <path>D:\darknet-master\darknet-master\build\darknet\x64\mydata\container\000412.jpg</path>
+  <source>
+    <database>Unknown</database>
+  </source>
+  <size>
+    <width>448</width>
+    <height>232</height>
+    <depth>3</depth>
+  </size>
+  <segmented>0</segmented>
+  <object>
+    <name>container</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <Difficult>0</Difficult>
+    <bndbox>
+      <xmin>5</xmin>
+      <ymin>66</ymin>
+      <xmax>447</xmax>
+      <ymax>214</ymax>
+    </bndbox>
+  </object>
+</annotation>
