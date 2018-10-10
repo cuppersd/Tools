@@ -8,5 +8,9 @@
 
 `sudo ldconfig /usr/local/cuda-8.0/lib64`
 
-### 2. Python安装模块更换源
+### 2. Python 安装模块更换源
 `pip3 install django -i http://pypi.douban.com/simple --trusted-host pypi.douban.com`
+
+### 3. Python 后台启动服务，启动后不关闭
+`nohup python manage.py runserver 0.0.0.0:8330 &`
+
