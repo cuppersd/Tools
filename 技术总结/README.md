@@ -5,5 +5,4 @@
 `/usr/local/cuda-8.0/lib64`
 
 * 解决方案，执行以下命令：
-
 `sudo ldconfig /usr/local/cuda-8.0/lib64`
