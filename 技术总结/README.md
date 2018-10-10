@@ -14,3 +14,11 @@
 ### 3. Python 后台启动服务，启动后不关闭
 `nohup python manage.py runserver 0.0.0.0:8330 &`
 
+### 4. ffmpeg 将视频转化为gif图片
+* 将视频 MP4 转化为 GIF
+`ffmpeg -i small.mp4 small.gif`
+* 转化视频中的一部分为 GIF
+`ffmpeg -t 3 -ss 00:00:02 -i small.webm small-clip.gif`
+从视频中第二秒开始，截取时长为3秒的片段转化为 gif
+* 转化高质量 GIF，默认转化是中等质量模式，若要转化出高质量的 gif，可以修改比特率
+`ffmpeg -i 2.mp4 -b 2048k small.gif`
