@@ -7,3 +7,6 @@
 * 解决方案，执行以下命令：
 
 `sudo ldconfig /usr/local/cuda-8.0/lib64`
+
+### 2. Python安装模块更换源
+`pip3 install django -i http://pypi.douban.com/simple --trusted-host pypi.douban.com`
