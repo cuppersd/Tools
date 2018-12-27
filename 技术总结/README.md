@@ -98,7 +98,7 @@ execute:cd your_dir\text-detection-ctpn-master
 
 execute:python ./ctpn/demo.py
 
-### 7. Ubuntu显卡驱动安装与更新
+### 7. [Ubuntu显卡驱动安装与更新](https://blog.csdn.net/seymour163/article/details/78798419)
 
 ctrl+alt+f1进入tty
 
