@@ -103,11 +103,19 @@ execute:python ./ctpn/demo.py
 ctrl+alt+f1进入tty
 
 1 第一句删除掉之前nv文件，不执行这句可能执行后面的也能进得去系统，最好执行
+
 `sudo apt-get purge nvidia*`
+
 2 Add the graphics-driver PPA
+
 `sudo add-apt-repository ppa:graphics-drivers`
+
 3 And update
+
 `sudo apt-get update`
+
 `sudo apt-get install nvidia-375`
+
 4 375相对我原来的381可能更稳吧,有个后话，我试了更新的驱动，比如387也进来系统了，或许是别的原因导致进不来的，还不清楚原因。
+
 
