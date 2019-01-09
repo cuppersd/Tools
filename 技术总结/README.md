@@ -119,3 +119,5 @@ ctrl+alt+f1进入tty
 4 375相对我原来的381可能更稳吧,有个后话，我试了更新的驱动，比如387也进来系统了，或许是别的原因导致进不来的，还不清楚原因。
 
 ### 8. [Ubuntu远程桌面的安装](https://blog.csdn.net/sinolover/article/details/78673625)
+
+### 9. [Ubuntu用户添加删除权限管理](https://blog.csdn.net/cugxyy6/article/details/80690768)
