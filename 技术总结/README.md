@@ -121,3 +121,5 @@ ctrl+alt+f1进入tty
 ### 8. [Ubuntu远程桌面的安装](https://blog.csdn.net/sinolover/article/details/78673625)
 
 ### 9. [Ubuntu用户添加删除权限管理](https://blog.csdn.net/cugxyy6/article/details/80690768)
+
+### 10. [最新CRNN代码](https://blog.csdn.net/Sierkinhane/article/details/82857572)
