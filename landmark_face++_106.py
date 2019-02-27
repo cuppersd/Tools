@@ -6,8 +6,8 @@ import json
 
 
 http_url = 'https://api-cn.faceplusplus.com/facepp/v3/detect'
-key = "yt-hM3Q_CTF_SsfwY2XTTxVAjswSDBxo"
-secret = "prUQjugxRW1QJW_wVhue55dHkLKIrjBw"
+key = "yt-hM3Q_CTF_SsfwY2XTTxVAjswSDBxoz"
+secret = "prUQjugxRW1QJW_wVhue55dHkLKIrjBwj"
 filepath = r"3.jpg"
 boundary = '----------%s' % hex(int(time.time() * 1000))
 data = []
