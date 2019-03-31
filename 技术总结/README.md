@@ -124,4 +124,4 @@ ctrl+alt+f1进入tty
 
 ### 10. [最新CRNN代码](https://blog.csdn.net/Sierkinhane/article/details/82857572)
 
-### 11. 通配符删文件 i in ROTATE_*; do rm -f ${i}; done
+### 11. 通配符删文件 for i in ROTATE_*; do rm -f ${i}; done
