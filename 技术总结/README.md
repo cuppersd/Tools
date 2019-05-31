@@ -125,3 +125,5 @@ ctrl+alt+f1进入tty
 ### 10. [最新CRNN代码](https://blog.csdn.net/Sierkinhane/article/details/82857572)
 
 ### 11. 通配符删文件 for i in ROTATE_*; do rm -f ${i}; done
+
+### 12. cv2.imread('1.jpg',cv2.IMREAD_IGNORE_ORIENTATION | cv2.IMREAD_COLOR)
