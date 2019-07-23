@@ -127,3 +127,8 @@ ctrl+alt+f1进入tty
 ### 11. 通配符删文件 for i in ROTATE_*; do rm -f ${i}; done
 
 ### 12. cv2.imread('1.jpg',cv2.IMREAD_IGNORE_ORIENTATION | cv2.IMREAD_COLOR)
+
+### 13. Tensorflow serving部署。
+官网教程：https://tensorflow.google.cn/tfx/serving/docker?hl=RU
+代码教程1：https://medium.com/tensorflow/training-and-serving-ml-models-with-tf-keras-fd975cc0fa27
+代码教程2：https://gist.github.com/asimshankar/000b8d276f211f972168afa138eb3cc7
