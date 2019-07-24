@@ -132,3 +132,6 @@ ctrl+alt+f1进入tty
 官网教程：https://tensorflow.google.cn/tfx/serving/docker?hl=RU
 代码教程1：https://medium.com/tensorflow/training-and-serving-ml-models-with-tf-keras-fd975cc0fa27
 代码教程2：https://gist.github.com/asimshankar/000b8d276f211f972168afa138eb3cc7
+
+### 14. NVIDIA DOCKER的安装：https://github.com/NVIDIA/nvidia-docker | 在tensorflow serving 部署之前必须要安装NVIDIA DOCKER才可以GPU部署docker run --runtime=nvidia -t --rm -p 8501:8501 -e CUDA_VISIBLE_DEVICES=3    -v "$TESTDATA/saved_model_half_plus_two_gpu:/models/half_plus_two"     -e MODEL_NAME=half_plus_two     tensorflow/serving:latest-gpu &
+
