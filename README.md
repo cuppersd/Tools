@@ -32,4 +32,11 @@ opencv_world455d.lib
 ncnn.lib
 libprotobuf-lite.lib
 libprotoc.lib
+
+
+
+ cat card_reg.log | grep upload_hua_wei_cloud | grep 2023-10 | grep origin.jpg > 2023-10.txt
+
+
+git clone --depth 1 https://github.com.cr.git
  
